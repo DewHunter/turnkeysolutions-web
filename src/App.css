@@ -3,6 +3,7 @@
     /* Custom theme colors */
     --theme-main-color: #682d36;
     --theme-secondary-color: #000000;
+    --theme-secondary-bg-color: #f6f6f6;
 }
 
 body {

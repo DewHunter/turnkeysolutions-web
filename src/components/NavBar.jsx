@@ -6,7 +6,7 @@ function NavBar() {
 
   const scrollToSection = (sectionId) => {
     const sectionElement = document.getElementById(sectionId);
-    const offset = 128;
+    const offset = 99;
     if (sectionElement) {
       const targetScroll = sectionElement.offsetTop - offset;
       sectionElement.scrollIntoView({ behavior: "smooth" });
@@ -17,7 +17,7 @@ function NavBar() {
     }
   };
 
-  const tabToSection = ["home", "contact", "ourservices"];
+  const tabToSection = ["home", "ourservices", "gallery", "contact"];
 
   const handleTabChange = (_event, newTab) => {
     scrollToSection(tabToSection[newTab]);
@@ -38,13 +38,10 @@ function NavBar() {
           indicatorColor="primary"
           role="navigation"
         >
-          <Tab label="HOME" href="#home" sx={{ fontWeight: "bold" }} />
-          <Tab label="CONTACT" href="#contact" sx={{ fontWeight: "bold" }} />
-          <Tab
-            label="OUR SERVICES"
-            href="#ourservices"
-            sx={{ fontWeight: "bold" }}
-          />
+          <Tab label="HOME" sx={{ fontWeight: "bold" }} />
+          <Tab label="OUR SERVICES" sx={{ fontWeight: "bold" }} />
+          <Tab label="GALLERY" sx={{ fontWeight: "bold" }} />
+          <Tab label="CONTACT" sx={{ fontWeight: "bold" }} />
         </Tabs>
       </Toolbar>
     </AppBar>
