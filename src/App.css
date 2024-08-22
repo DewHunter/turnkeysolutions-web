@@ -1,0 +1,21 @@
+#root {
+    text-align: center;
+    /* Custom theme colors */
+    --theme-main-color: #682d36;
+    --theme-secondary-color: #000000;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.landing-logo {
+    transform: scale(1.3);
+    transform-origin: center;
+    margin: 50px auto;
+}
+
+.footer {
+    height: 7em;
+}
