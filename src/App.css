@@ -17,6 +17,15 @@ body {
     margin: 50px auto;
 }
 
+.zoom-on-hover {
+    transition: transform 0.2s;
+}
+
+.zoom-on-hover:hover {
+    overflow: visible;
+    transform: scale(1.02);
+}
+
 .footer {
     height: 7em;
 }
