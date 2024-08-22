@@ -98,7 +98,7 @@ const modalContainerStyle = {
   justifyContent: "center",
   alignItems: "center",
 };
-const modalStyle = {};
-const imgModalStyle = { objectFit: "fill" };
+const modalStyle = { width: "80%" };
+const imgModalStyle = { width: "100%" };
 
 export default GalleryHighlights;

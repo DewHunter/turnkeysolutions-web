@@ -17,7 +17,7 @@ function NavBar() {
     }
   };
 
-  const tabToSection = ["home", "ourservices", "gallery", "contact"];
+  const tabToSection = ["home", "aboutus", "gallery", "ourservices", "contact"];
 
   const handleTabChange = (_event, newTab) => {
     scrollToSection(tabToSection[newTab]);
@@ -39,8 +39,9 @@ function NavBar() {
           role="navigation"
         >
           <Tab label="HOME" sx={{ fontWeight: "bold" }} />
-          <Tab label="OUR SERVICES" sx={{ fontWeight: "bold" }} />
+          <Tab label="ABOUT US" sx={{ fontWeight: "bold" }} />
           <Tab label="GALLERY" sx={{ fontWeight: "bold" }} />
+          <Tab label="OUR SERVICES" sx={{ fontWeight: "bold" }} />
           <Tab label="CONTACT" sx={{ fontWeight: "bold" }} />
         </Tabs>
       </Toolbar>

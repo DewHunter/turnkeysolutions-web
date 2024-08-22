@@ -23,7 +23,8 @@ body {
 
 .zoom-on-hover:hover {
     overflow: visible;
-    transform: scale(1.02);
+    z-index: 99;
+    transform: scale(1.1);
 }
 
 .footer {

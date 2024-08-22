@@ -2,7 +2,7 @@ import { Box, Container, Typography, Unstable_Grid2 } from "@mui/material";
 
 function AboutSection() {
   return (
-    <Container id="ourservices">
+    <Container id="aboutus">
       <Typography
         variant="h4"
         sx={{
