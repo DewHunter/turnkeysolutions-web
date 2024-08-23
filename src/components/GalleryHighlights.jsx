@@ -29,7 +29,7 @@ function GalleryHighlights() {
       }}
     >
       <Typography
-        variant="h3"
+        variant="h4"
         sx={{
           margin: "0.5em",
           color: "var(--theme-main-color)",
@@ -38,7 +38,7 @@ function GalleryHighlights() {
       >
         Picture Perfect: Our Home Repair Projects
       </Typography>
-      <Box sx={{ width: "60%" }}>
+      <Box sx={{ width: "70%" }}>
         <ImageList cols={3}>
           {imageData.map((item) => (
             <ImageListItem
