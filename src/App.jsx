@@ -2,6 +2,7 @@ import { Divider, ThemeProvider, Toolbar } from "@mui/material";
 import { createTheme } from "@mui/material/styles";
 import AboutSection from "./components/AboutSection";
 import Banner from "./components/Banner";
+import ContactUs from "./components/ContactUs";
 import GalleryHighlights from "./components/GalleryHighlights";
 import Services from "./components/Services";
 import Footer from "./components/Footer";
@@ -39,6 +40,8 @@ function App() {
       <AboutSection />
       <GalleryHighlights />
       <Services />
+      <Divider variant="middle" />
+      <ContactUs />
       <Divider />
       <Footer />
     </ThemeProvider>
